@@ -1,0 +1,178 @@
+@media(max-width:991px){
+
+
+
+    .navbar_links ul{
+        display: none;
+    }
+     .navbar_links .active{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        height: 70vh;
+        padding-block: 20px;
+        width: 100%;
+        background-color: white;
+    }
+    .navbar{
+        overflow: initial;
+    }
+   .navbar_links ul{
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+
+   }
+    .hamburger{
+        display: block;
+        margin-right: 20px;
+    }
+
+    
+   
+
+    .example-card{
+        width: calc(50%-10px);
+        height: 180px;
+        
+    }
+    .example-area{
+        gap: 20px;
+    }
+
+    .cta-section{
+        padding-block: 
+            50px
+        ;
+    }
+   
+    .companies_logos{
+     
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+
+    .features-area{
+        
+       grid-gap: 10px;
+    
+    }
+  
+
+   @media screen and (max-width:767px){
+    
+    .header_section{
+        flex-direction: column-reverse;
+    }
+
+    .header_left{
+       max-width: 100vw;
+       text-align: center;
+    }
+
+    .primary_button{
+       width: 100%;
+    
+    }
+    .features-area{
+      grid-template-columns: 1fr 1fr;
+     grid-gap: 5px;
+    }
+    .big-feature-container,#big-feature-container-2{
+       
+       flex-direction: column;
+
+     }
+
+     .big-feature-container h1{ 
+        font-size: 2rem;
+     }
+
+   .feature-pic img {
+    width: 100%;
+}
+
+
+.features-description{
+    width: 100%;
+}
+
+  .footer-container{
+ flex-direction: column;
+ gap: 40px;
+
+ align-items: center;
+} 
+
+.link-coloum{
+    
+   align-items: stretch;
+}
+.sub-footer-container{
+    flex-wrap: wrap;
+}
+
+.example-card{
+    width: calc(40%-10px);
+    
+    
+}
+
+
+.example-area{
+    gap: 5px;
+}
+
+.example-area h3{
+    font-size: .9rem;
+}
+   
+   }}
+
+   @media screen  and (max-width:478px){
+    :root{
+        --padding-inline-section:10px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .features-area{
+        grid-template-columns: 1fr;
+       grid-gap: 5px;
+      }
+      .example-card{
+      width: 100%;
+        
+    }
+
+    .cta-section{
+        padding-block: 
+            50px
+        ;
+
+      
+    }
+
+    .cta-section-container{
+        text-align: center;
+      
+      }
+   
+
+  
+
+   }
